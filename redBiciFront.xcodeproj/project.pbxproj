@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AB5E15B28D6011E00204F97 /* redBiciFrontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E15A28D6011E00204F97 /* redBiciFrontApp.swift */; };
+		9AB5E15D28D6011E00204F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E15C28D6011E00204F97 /* ContentView.swift */; };
+		9AB5E15F28D6012600204F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5E15E28D6012600204F97 /* Assets.xcassets */; };
+		9AB5E16228D6012600204F97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5E16128D6012600204F97 /* Preview Assets.xcassets */; };
+		9AB5E16928D601D200204F97 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E16828D601D200204F97 /* AuthenticationView.swift */; };
+		9ABD1F7728E11F360087FE3C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */; };
+		9ABD1F7928E122500087FE3C /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */; };
+		9ABD1F7C28E12A150087FE3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7B28E12A150087FE3C /* HomeView.swift */; };
+		9ABD1F7E28E12A270087FE3C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */; };
+		9ABD1F8028E13C630087FE3C /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7F28E13C630087FE3C /* TextAlert.swift */; };
+		9ADA893428E0D19D00065742 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ADA893328E0D19D00065742 /* GoogleService-Info.plist */; };
+		9ADA893728E0D3B200065742 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADA893628E0D3B200065742 /* FirebaseAnalytics */; };
+		9ADA893928E0D3B200065742 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADA893828E0D3B200065742 /* FirebaseAuth */; };
+		9ADA893B28E0D3B200065742 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADA893A28E0D3B200065742 /* FirebaseAuthCombine-Community */; };
+		9ADA894028E0F08D00065742 /* BikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA893F28E0F08D00065742 /* BikeModel.swift */; };
+		9ADA894428E0F74200065742 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADA894328E0F74200065742 /* GoogleSignIn */; };
+		9ADA894628E0F74200065742 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADA894528E0F74200065742 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AB5E15728D6011E00204F97 /* redBiciFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redBiciFront.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB5E15A28D6011E00204F97 /* redBiciFrontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBiciFrontApp.swift; sourceTree = "<group>"; };
+		9AB5E15C28D6011E00204F97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AB5E15E28D6012600204F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AB5E16128D6012600204F97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AB5E16828D601D200204F97 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
+		9ABD1F7B28E12A150087FE3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9ABD1F7F28E13C630087FE3C /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
+		9ADA893328E0D19D00065742 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ADA893F28E0F08D00065742 /* BikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeModel.swift; sourceTree = "<group>"; };
+		9ADA894728E0F79400065742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB5E15428D6011E00204F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADA894628E0F74200065742 /* GoogleSignInSwift in Frameworks */,
+				9ADA893728E0D3B200065742 /* FirebaseAnalytics in Frameworks */,
+				9ADA894428E0F74200065742 /* GoogleSignIn in Frameworks */,
+				9ADA893B28E0D3B200065742 /* FirebaseAuthCombine-Community in Frameworks */,
+				9ADA893928E0D3B200065742 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AB5E14E28D6011D00204F97 = {
+			isa = PBXGroup;
+			children = (
+				9AB5E15928D6011E00204F97 /* redBiciFront */,
+				9AB5E15828D6011E00204F97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB5E15828D6011E00204F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5E15728D6011E00204F97 /* redBiciFront.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB5E15928D6011E00204F97 /* redBiciFront */ = {
+			isa = PBXGroup;
+			children = (
+				9ADA894728E0F79400065742 /* Info.plist */,
+				9ADA894128E0F0A100065742 /* Authentication */,
+				9ABD1F7A28E129F70087FE3C /* Home */,
+				9ADA893E28E0F08100065742 /* Models */,
+				9AB5E15A28D6011E00204F97 /* redBiciFrontApp.swift */,
+				9AB5E15C28D6011E00204F97 /* ContentView.swift */,
+				9AB5E15E28D6012600204F97 /* Assets.xcassets */,
+				9AB5E16028D6012600204F97 /* Preview Content */,
+				9ADA893328E0D19D00065742 /* GoogleService-Info.plist */,
+			);
+			path = redBiciFront;
+			sourceTree = "<group>";
+		};
+		9AB5E16028D6012600204F97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5E16128D6012600204F97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ABD1F7A28E129F70087FE3C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9ABD1F7B28E12A150087FE3C /* HomeView.swift */,
+				9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */,
+				9ABD1F7F28E13C630087FE3C /* TextAlert.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9ADA893E28E0F08100065742 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9ADA893F28E0F08D00065742 /* BikeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9ADA894128E0F0A100065742 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5E16828D601D200204F97 /* AuthenticationView.swift */,
+				9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */,
+				9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB5E15628D6011E00204F97 /* redBiciFront */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB5E16528D6012600204F97 /* Build configuration list for PBXNativeTarget "redBiciFront" */;
+			buildPhases = (
+				9AB5E15328D6011E00204F97 /* Sources */,
+				9AB5E15428D6011E00204F97 /* Frameworks */,
+				9AB5E15528D6011E00204F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redBiciFront;
+			packageProductDependencies = (
+				9ADA893628E0D3B200065742 /* FirebaseAnalytics */,
+				9ADA893828E0D3B200065742 /* FirebaseAuth */,
+				9ADA893A28E0D3B200065742 /* FirebaseAuthCombine-Community */,
+				9ADA894328E0F74200065742 /* GoogleSignIn */,
+				9ADA894528E0F74200065742 /* GoogleSignInSwift */,
+			);
+			productName = redBiciFront;
+			productReference = 9AB5E15728D6011E00204F97 /* redBiciFront.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB5E14F28D6011D00204F97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9AB5E15628D6011E00204F97 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AB5E15228D6011D00204F97 /* Build configuration list for PBXProject "redBiciFront" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AB5E14E28D6011D00204F97;
+			packageReferences = (
+				9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9ADA894228E0F74100065742 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 9AB5E15828D6011E00204F97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB5E15628D6011E00204F97 /* redBiciFront */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB5E15528D6011E00204F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5E16228D6012600204F97 /* Preview Assets.xcassets in Resources */,
+				9AB5E15F28D6012600204F97 /* Assets.xcassets in Resources */,
+				9ADA893428E0D19D00065742 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB5E15328D6011E00204F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB5E15D28D6011E00204F97 /* ContentView.swift in Sources */,
+				9ABD1F7C28E12A150087FE3C /* HomeView.swift in Sources */,
+				9ABD1F7728E11F360087FE3C /* AuthenticationViewModel.swift in Sources */,
+				9ABD1F8028E13C630087FE3C /* TextAlert.swift in Sources */,
+				9ABD1F7E28E12A270087FE3C /* HomeViewModel.swift in Sources */,
+				9AB5E15B28D6011E00204F97 /* redBiciFrontApp.swift in Sources */,
+				9ABD1F7928E122500087FE3C /* GoogleSignInButton.swift in Sources */,
+				9ADA894028E0F08D00065742 /* BikeModel.swift in Sources */,
+				9AB5E16928D601D200204F97 /* AuthenticationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AB5E16328D6012600204F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AB5E16428D6012600204F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB5E16628D6012600204F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"redBiciFront/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = redBiciFront/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.redBiciFront;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AB5E16728D6012600204F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"redBiciFront/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CCBV67PDZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = redBiciFront/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.redBiciFront;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB5E15228D6011D00204F97 /* Build configuration list for PBXProject "redBiciFront" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB5E16328D6012600204F97 /* Debug */,
+				9AB5E16428D6012600204F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB5E16528D6012600204F97 /* Build configuration list for PBXNativeTarget "redBiciFront" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB5E16628D6012600204F97 /* Debug */,
+				9AB5E16728D6012600204F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		9ADA894228E0F74100065742 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9ADA893628E0D3B200065742 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9ADA893828E0D3B200065742 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9ADA893A28E0D3B200065742 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		9ADA894328E0F74200065742 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADA894228E0F74100065742 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		9ADA894528E0F74200065742 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADA894228E0F74100065742 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AB5E14F28D6011D00204F97 /* Project object */;
+}
