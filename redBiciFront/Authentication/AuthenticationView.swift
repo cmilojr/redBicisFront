@@ -15,7 +15,7 @@ struct AuthenticationView: View {
     
     init() {
         if FirebaseApp.app() == nil {
-               FirebaseApp.configure()
+            FirebaseApp.configure()
         }
     }
     
@@ -71,7 +71,6 @@ struct AuthenticationView: View {
 }
 
 struct LogginView_Previews: PreviewProvider {
-    
     static var previews: some View {
         AuthenticationView()
     }

@@ -1,19 +1,20 @@
 //
-//  TextAlert.swift
+//  EditAlert.swift
 //  redBiciFront
 //
-//  Created by Camilo Jiménez on 25/09/22.
+//  Created by juan.jimenezr on 29/09/22.
 //
 
 import SwiftUI
 
-struct TextAlert: View {
+struct EditAlert: View {
     @Binding var isShown: Bool
     @Binding var descriptionText: String
     @Binding var colorText: String
     
-    let actionAdd: () -> Void
-    var title: String = "Add Bike"
+    let actionSave: () -> Void
+    let actionDelete: () -> Void
+    var title: String = "Edit Bike"
     let screeSize = UIScreen.main.bounds
     
     var body: some View {
@@ -37,12 +38,23 @@ struct TextAlert: View {
 
                 Button {
                     self.isShown = false
-                    self.actionAdd()
+                    self.actionSave()
                 } label: {
-                    Text("Add")
+                    Text("Save")
                         .fontWeight(.semibold)
                         .frame(width: 70, height: 40)
                 }
+                
+                Button {
+                    self.isShown = false
+                    self.actionDelete()
+                } label: {
+                    Text("Delete")
+                        .fontWeight(.semibold)
+                        .frame(width: 70, height: 40)
+                        .foregroundColor(.red)
+                }
+
             }
         }
         .padding()
@@ -55,8 +67,9 @@ struct TextAlert: View {
     }
 }
 
-struct TextAlert_Previews: PreviewProvider {
+struct EditAlert_Previews: PreviewProvider {
     static var previews: some View {
-        TextAlert(isShown: .constant(true), descriptionText: .constant(""), colorText: .constant(""), actionAdd: {})
+        EditAlert(isShown: .constant(true), descriptionText: .constant(""), colorText: .constant(""), actionSave: {}, actionDelete: {})
     }
 }
+

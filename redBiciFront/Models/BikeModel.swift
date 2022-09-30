@@ -8,9 +8,21 @@
 import Foundation
 
 struct Bike: Identifiable, Equatable, Codable {
-    var id: UUID
+    var id: String
     var color: String
     var description: String
     var latitude: String
-    var longitude: String
+    var longitud: String
+}
+
+
+struct User: Codable {
+    var userId: String
+    var bikes: [Bike]
+}
+
+
+struct DeleteModel: Codable {
+    var userId: String
+    var idBike: String
 }

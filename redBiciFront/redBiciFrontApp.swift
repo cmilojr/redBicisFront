@@ -11,8 +11,7 @@ import GoogleSignIn
 
 @main
 struct redBiciFrontApp: App {
-    @StateObject var viewModel = AuthenticationViewModel()
-    
+    @ObservedObject var viewModelAuth = AuthenticationViewModel()
     init() {
         setupAuthentication()
     }
@@ -21,8 +20,7 @@ struct redBiciFrontApp: App {
         WindowGroup {
             NavigationView {
               ContentView()
-                    .environmentObject(viewModel)
-            }
+            }.environmentObject(viewModelAuth)
         }
     }
 }

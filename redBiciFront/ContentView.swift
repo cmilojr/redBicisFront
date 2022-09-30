@@ -9,15 +9,17 @@ import SwiftUI
 import Firebase
 
 struct ContentView: View {
-    @EnvironmentObject var viewModel: AuthenticationViewModel
-    
+    @EnvironmentObject var viewModelAuth: AuthenticationViewModel
     var body: some View {
-        switch viewModel.state {
-        case .signedIn: HomeView()
-        case .signedOut: HomeView()
+        switch viewModelAuth.state {
+        case .signedIn:
+            HomeView()
+                .environmentObject(viewModelAuth)
+        case .signedOut:
+            AuthenticationView()
+                .environmentObject(viewModelAuth)
         }
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

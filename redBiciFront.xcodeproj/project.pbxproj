@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A27878828E75FDF0022BD9E /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27878728E75FDF0022BD9E /* PlaceAnnotationView.swift */; };
+		9A27878A28E760040022BD9E /* EditAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27878928E760040022BD9E /* EditAlert.swift */; };
+		9A27878D28E760E40022BD9E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A27878C28E760E40022BD9E /* Alamofire */; };
 		9AB5E15B28D6011E00204F97 /* redBiciFrontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E15A28D6011E00204F97 /* redBiciFrontApp.swift */; };
 		9AB5E15D28D6011E00204F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E15C28D6011E00204F97 /* ContentView.swift */; };
 		9AB5E15F28D6012600204F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5E15E28D6012600204F97 /* Assets.xcassets */; };
 		9AB5E16228D6012600204F97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5E16128D6012600204F97 /* Preview Assets.xcassets */; };
 		9AB5E16928D601D200204F97 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5E16828D601D200204F97 /* AuthenticationView.swift */; };
 		9ABD1F7728E11F360087FE3C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */; };
-		9ABD1F7928E122500087FE3C /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */; };
 		9ABD1F7C28E12A150087FE3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7B28E12A150087FE3C /* HomeView.swift */; };
 		9ABD1F7E28E12A270087FE3C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */; };
 		9ABD1F8028E13C630087FE3C /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD1F7F28E13C630087FE3C /* TextAlert.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A27878728E75FDF0022BD9E /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		9A27878928E760040022BD9E /* EditAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlert.swift; sourceTree = "<group>"; };
 		9AB5E15728D6011E00204F97 /* redBiciFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redBiciFront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB5E15A28D6011E00204F97 /* redBiciFrontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBiciFrontApp.swift; sourceTree = "<group>"; };
 		9AB5E15C28D6011E00204F97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,7 +38,6 @@
 		9AB5E16128D6012600204F97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AB5E16828D601D200204F97 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
-		9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		9ABD1F7B28E12A150087FE3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9ABD1F7F28E13C630087FE3C /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 				9ADA894628E0F74200065742 /* GoogleSignInSwift in Frameworks */,
 				9ADA893728E0D3B200065742 /* FirebaseAnalytics in Frameworks */,
 				9ADA894428E0F74200065742 /* GoogleSignIn in Frameworks */,
+				9A27878D28E760E40022BD9E /* Alamofire in Frameworks */,
 				9ADA893B28E0D3B200065742 /* FirebaseAuthCombine-Community in Frameworks */,
 				9ADA893928E0D3B200065742 /* FirebaseAuth in Frameworks */,
 			);
@@ -105,6 +109,8 @@
 				9ABD1F7B28E12A150087FE3C /* HomeView.swift */,
 				9ABD1F7D28E12A270087FE3C /* HomeViewModel.swift */,
 				9ABD1F7F28E13C630087FE3C /* TextAlert.swift */,
+				9A27878728E75FDF0022BD9E /* PlaceAnnotationView.swift */,
+				9A27878928E760040022BD9E /* EditAlert.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -122,7 +128,6 @@
 			children = (
 				9AB5E16828D601D200204F97 /* AuthenticationView.swift */,
 				9ABD1F7628E11F360087FE3C /* AuthenticationViewModel.swift */,
-				9ABD1F7828E122500087FE3C /* GoogleSignInButton.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				9ADA893A28E0D3B200065742 /* FirebaseAuthCombine-Community */,
 				9ADA894328E0F74200065742 /* GoogleSignIn */,
 				9ADA894528E0F74200065742 /* GoogleSignInSwift */,
+				9A27878C28E760E40022BD9E /* Alamofire */,
 			);
 			productName = redBiciFront;
 			productReference = 9AB5E15728D6011E00204F97 /* redBiciFront.app */;
@@ -181,6 +187,7 @@
 			packageReferences = (
 				9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				9ADA894228E0F74100065742 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				9A27878B28E760E40022BD9E /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 9AB5E15828D6011E00204F97 /* Products */;
 			projectDirPath = "";
@@ -211,11 +218,12 @@
 			files = (
 				9AB5E15D28D6011E00204F97 /* ContentView.swift in Sources */,
 				9ABD1F7C28E12A150087FE3C /* HomeView.swift in Sources */,
+				9A27878A28E760040022BD9E /* EditAlert.swift in Sources */,
 				9ABD1F7728E11F360087FE3C /* AuthenticationViewModel.swift in Sources */,
+				9A27878828E75FDF0022BD9E /* PlaceAnnotationView.swift in Sources */,
 				9ABD1F8028E13C630087FE3C /* TextAlert.swift in Sources */,
 				9ABD1F7E28E12A270087FE3C /* HomeViewModel.swift in Sources */,
 				9AB5E15B28D6011E00204F97 /* redBiciFrontApp.swift in Sources */,
-				9ABD1F7928E122500087FE3C /* GoogleSignInButton.swift in Sources */,
 				9ADA894028E0F08D00065742 /* BikeModel.swift in Sources */,
 				9AB5E16928D601D200204F97 /* AuthenticationView.swift in Sources */,
 			);
@@ -422,6 +430,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9A27878B28E760E40022BD9E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
 		9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -441,6 +457,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9A27878C28E760E40022BD9E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A27878B28E760E40022BD9E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		9ADA893628E0D3B200065742 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9ADA893528E0D3B100065742 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
